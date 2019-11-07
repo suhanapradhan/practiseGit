@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+h1
+{
+    color: darkgreen;
+    font-size: 40px;
+    font-family: Helvetica Neue, Arial;
+    margin-bottom: 20px;
+}
+
+h2
+{
+    color: darkgreen;
+    font-size: 30px;
+    font-family: Helvetica Neue, Arial;
+    margin-bottom: 10px;
+}
+p
+{
+    text-align: justify;
+   /* margin-bottom: 5px;
+      margin-top: 5px; */
+    
+}
+
+.Main-text {
+    text-align: justify;
+    margin-bottom: 20px;
+    
+    
+}
+
+.Author-name{
+    font-size: 22px;
+}
+
+
+Asia
+Australia
+Africa
+Antartica
+North America 
+South America
+Europe
+
+
+
+
+
+
+
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin: auto;
+    /* background-color: burlywood; */
+    
+}
+
+.blog-post {
+ background-color: aqua;  
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+    
+}
+
+.author-posts {
+    
+}
+
+.other-post {
+    background-color: chartreuse;
+    width: 25%;
+    float: left;
+    padding-left: 15px;
+    
+}
+
+.author-box {
+    background-color: crimson; 
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
